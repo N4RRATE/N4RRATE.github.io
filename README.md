@@ -6,7 +6,9 @@
 
 - 本地文件夹：`/Users/huangbowen/Documents/bowen-blog`
 - 本地预览：<http://localhost:1313/>（必须运行预览服务）
-- 预定正式网址：<https://n4rrate.github.io/>（首次 GitHub 授权和部署完成后可访问）
+- 正式网址：<https://n4rrate.github.io/>
+- 源码仓库：<https://github.com/N4RRATE/N4RRATE.github.io>
+- 发布状态：<https://github.com/N4RRATE/N4RRATE.github.io/actions>
 
 ## 第一次上手：修改已有草稿
 
