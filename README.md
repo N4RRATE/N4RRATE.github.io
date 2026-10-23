@@ -83,7 +83,7 @@ $$
 2. 在终端运行构建，确认无错误：
 
 ```sh
-hugo --gc --minify
+hugo --gc --minify --cleanDestinationDir
 ```
 
 3. 检查改动、保存版本、推送：

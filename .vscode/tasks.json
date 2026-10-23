@@ -24,7 +24,8 @@
       "command": "hugo",
       "args": [
         "--gc",
-        "--minify"
+        "--minify",
+        "--cleanDestinationDir"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
