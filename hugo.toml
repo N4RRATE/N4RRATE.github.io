@@ -1,0 +1,55 @@
+baseURL = 'https://n4rrate.github.io/'
+locale = 'zh-CN'
+defaultContentLanguage = 'zh'
+hasCJKLanguage = true
+title = 'Bowen 的学习笔记'
+theme = 'PaperMod'
+enableRobotsTXT = true
+
+[params]
+  description = 'C++、数据结构与算法的学习笔记'
+  author = 'Bowen'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  mainSections = ['posts']
+  DateFormat = '2006-01-02'
+
+[params.homeInfoParams]
+  Title = '记录理解，也记录困惑'
+  Content = 'C++ · 数据结构与算法 · 学习复盘'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[[menus.main]]
+  name = '文章'
+  url = '/posts/'
+  weight = 10
+[[menus.main]]
+  name = '标签'
+  url = '/tags/'
+  weight = 20
+[[menus.main]]
+  name = '归档'
+  url = '/archives/'
+  weight = 30
+[[menus.main]]
+  name = '搜索'
+  url = '/search/'
+  weight = 40
+
+[markup.highlight]
+  noClasses = false
+[markup.goldmark.extensions.passthrough]
+  enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+  block = [['\[', '\]'], ['$$', '$$']]
+  inline = [['\(', '\)']]
+
+[caches.images]
+  dir = ':cacheDir/images'
